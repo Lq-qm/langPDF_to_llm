@@ -1,8 +1,4 @@
 import requests
-from llama_index import SimpleDirectoryReader, GPTListIndex
-from llama_index.llms.base import LLMMetadata, CompletionResponse
-from llama_index.llms.base import LLM
-from typing import Optional
 
 # --- CONFIGURAÇÃO DA API DO OPENROUTER ---
 OPENROUTER_API_KEY = "your-api-key-here"
