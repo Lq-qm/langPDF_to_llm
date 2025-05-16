@@ -1,10 +1,5 @@
 import requests
 
-# --- CONFIGURAÇÃO DA API DO OPENROUTER ---
-OPENROUTER_API_KEY = "your-api-key-here"
-MODEL = "openrouter/mistral-7b"  # ou outro modelo suportado
-API_URL = "https://openrouter.ai/api/v1/chat/completions"
-
 # --- LEITURA DO DOCUMENTO E GERAÇÃO DE RESUMO ---
 documents = SimpleDirectoryReader("./docs").load_data()
 llm = OpenRouterLLM()
